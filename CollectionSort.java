@@ -13,6 +13,7 @@ public class CollectionSort {
 
         Collections.sort(list);
         Iterator<String> itr = list.iterator();
+        
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
